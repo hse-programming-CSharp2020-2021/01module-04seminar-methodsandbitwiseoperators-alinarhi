@@ -29,15 +29,43 @@ namespace Task2
     class Program
     {
         // TODO: используйте передачу параметров по ссылке
-        ReadData()
+        private static bool ReadData(out double average)
         {
-            // TODO: Прочитать вводимые данные
+            int number;
+            int counterOfNegative = 0;
+            int sumOfNegative = 0;
+
+            string input = Console.ReadLine();
+            while (!input.Equals("q") || sumOfNegative < -1000)
+            {
+                if (!int.TryParse(input, out number))
+                {
+                    average = 0;
+                    return false;
+                }
+                if (number < 0)
+                {
+                    counterOfNegative++;
+                    sumOfNegative += number;
+                }
+                input = Console.ReadLine();
+            }
+            average = counterOfNegative != 0 ? (double)sumOfNegative / counterOfNegative : 0;
+            return true;
         }
 
 
         static void Main(string[] args)
         {
-            Console.WriteLine(/* TODO: вывести результат*/);
+            if (ReadData(out double average))
+            {
+                Console.WriteLine(average);
+            }
+            else
+            {
+                Console.OutputEncoding = System.Text.Encoding.UTF8;
+                Console.WriteLine("Ошибка");
+            }
         }
     }
 }
