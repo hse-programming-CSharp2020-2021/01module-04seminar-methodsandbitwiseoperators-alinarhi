@@ -25,21 +25,49 @@ namespace Task1
     {
 
         // TODO: использовать передачу параметров по ссылке
-        static void ReadBoundaries()
+        static bool ReadBoundaries(out uint left, out uint right)
         {
-            // TODO: прочитать границы и проверить введенные данные на корректность
+            if (!uint.TryParse(Console.ReadLine(), out left))
+            {
+                right = 0;
+                return false;
+            }
+            if (!uint.TryParse(Console.ReadLine(), out right) || right < left)
+            {
+                return false;
+            }
+            return true;
         }
 
-        static void PrintPythagorasNumbers()
+        static void PrintPythagorasNumbers(uint left, uint right)
         {
-            // TODO: вывести пифагоровы тройки с числами из введенного отрезка
+            double c;
+
+            for (uint a = left; a < right - 1; a++)
+            {
+                for (uint b = a + 1; b < right; b++)
+                {
+                    c = Math.Sqrt(a * a + b * b);
+                    if ((c * c <= right * right) && (c - (uint)c < double.Epsilon))
+                    {
+                        Console.WriteLine($"{a} {b} {c}");
+                    }
+                }
+            }
         }
 
         static void Main(string[] args)
         {
             // TODO: дополнить метод так, чтобы программа выполняла поставленную задачу
-            ReadBoundaries();
-            PrintPythagorasNumbers();
+            if (!ReadBoundaries(out uint q, out uint p))
+            {
+                Console.OutputEncoding = System.Text.Encoding.UTF8;
+                Console.WriteLine("Ошибка");
+            }
+            else
+            {
+                PrintPythagorasNumbers(q, p);
+            }
         }
     }
 }
