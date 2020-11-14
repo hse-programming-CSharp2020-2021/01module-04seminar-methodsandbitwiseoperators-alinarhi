@@ -1,0 +1,13 @@
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.exe
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.deps.json
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.json
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.runtimeconfig.dev.json
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.dll
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\bin\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.csprojAssemblyReference.cache
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfoInputs.cache
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.AssemblyInfo.cs
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.csproj.CoreCompileInputs.cache
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.dll
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.pdb
+C:\Users\Алина\Source\Repos\01module-04seminar-methodsandbitwiseoperators-alinarhi\Task2\obj\Debug\netcoreapp3.1\Task2.genruntimeconfig.cache
